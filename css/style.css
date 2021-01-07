@@ -1,0 +1,40 @@
+html, body {
+	min-height: 100%;
+	height: auto;
+	/*overflow: scroll;*/
+	scroll-behavior: smooth;
+
+}
+
+#field {
+	width: 60vh;
+	height: 70vh;	
+	background: rgb(34,193,195);
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(205,45,253,0.6138830532212884) 100%);
+	border: 5px solid #1F28E6;
+	position: relative;
+	margin: auto;
+}
+
+#ball {
+	width: 30px;
+	height: 30px;	
+	background: rgb(218,161,241);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(218,161,241,1) 0%, rgba(194,99,231,1) 17%, rgba(170,38,222,1) 33%, rgba(99,0,138,1) 67%, rgba(63,0,88,1) 83%, rgba(26,0,36,1) 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(218,161,241,1) 0%,rgba(194,99,231,1) 17%,rgba(170,38,222,1) 33%,rgba(99,0,138,1) 67%,rgba(63,0,88,1) 83%,rgba(26,0,36,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(218,161,241,1) 0%,rgba(194,99,231,1) 17%,rgba(170,38,222,1) 33%,rgba(99,0,138,1) 67%,rgba(63,0,88,1) 83%,rgba(26,0,36,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#daa1f1', endColorstr='#1a0024',GradientType=1 );
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+
+#stick {
+	width: 80px;
+	height: 10px;
+	background: #381E6E;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
